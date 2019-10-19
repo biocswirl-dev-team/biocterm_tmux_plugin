@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 
 ####################################################
@@ -26,13 +27,13 @@ CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 ##----------------------------tmux logging 
 
-source "$CURRENT_DIR/scripts/variables.sh"
-source "$CURRENT_DIR/scripts/shared.sh"
+
+
 
 
 
 #save complete history
-run-shell "$CURRENT_DIR/scripts/save_complete_history.sh"
+
 
 
 ##----------------------------tmux-resurrect + continuum
