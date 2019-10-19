@@ -1,2 +1,2 @@
-# biocterm_tmux_plugin
-custom plugin for biocterm's tmux configuration
+# biocterm's tmux plugin package
+collection of plugins for biocterm's tmux configuration
